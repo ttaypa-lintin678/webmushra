@@ -1,0 +1,37 @@
+testname: my Test
+testId: my_test
+bufferSize: 1024
+stopOnErrors: false
+showButtonPreviousPage: true
+language: de
+remoteService: service/write.php
+
+pages:
+ - type: generic
+   id: welcome
+   name: Welcome
+   content: Thank you for helping us by answering these questions! This will take 10-15 minutes. We wish to evaluate the quality of our extraction of an instrument from a multi-instrument recording (source separation). This type of test is called MUSHRA, and it is a standard for subjective evaluation of audio quality. You will hear some audio examples and be asked to rate them, we will guide you through it. Take time to read the text at each time, it will describe the specificities of what we wish you to evaluate. This is a perceptive test, there is no right or wrong answer. It is possible that some tracks sound the same to you, this is fine! Make sure you are in a quiet environment, and that you have headphones on. Please click on the button below to start.
+ - type: generic
+   id: consent
+   name: Consent
+   mustConsent: true
+   content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared. Do you give consent for this?
+ - type: volume
+   id: vol
+   name: Volume settings
+   content: Let's start by adjusting the volume of your headphones to a comfortable level. It should be loud enough for you to hear details in the song, but not cause any distress. Ideally you should not change your computer's volume after setting this until you have finished the evaluation. Warning: While listening to this setup audio you should not hear any glitches, pops or strange sounds. If this is the case you can try to resart you browser or open this page using the Firefox web browser. When you are done, click on the button below to continue.
+   stimulus: configs/resources/audio/09_dry.wav
+   defaultVolume: 0.5
+                                                 
+ - type: mushra
+   id: mushra_mymushra
+   name: MUSHRA
+   content: You will be rating the reverberation of a plucked Guitar String! This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to focus on the overall quality of the conditioned audios and judge any and all detected differences between the reference and the condition. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio and 100 means that the conditioned audio is equal or better than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/09_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/07_V8.wav
+        C2: configs/resources/audio/08_IR.wav
+        C3: configs/resources/audio/09_dry.wav
