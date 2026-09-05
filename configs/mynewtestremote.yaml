@@ -10,12 +10,12 @@ pages:
  - type: generic
    id: welcome
    name: Welcome
-   content: Thank you for helping us by answering these questions! This will take 10-15 minutes. I wish to evaluate the quality of my Reverb- Patch used on multiple recorded Samples of Acoustic Instruments. This type of test is called MUSHRA, and it is a standard for subjective evaluation of audio quality. You will hear some audio examples and be asked to rate them, we will guide you through it. Take time to read the text at each time, it will describe the specificities of what we wish you to evaluate. This is a perceptive test, there is no right or wrong answer. It is possible that some tracks sound the same to you, this is fine! Make sure you are in a quiet environment, and that you have headphones on. Please click on the button below to start.
+   content: Thank you for helping me by answering these questions! This will take roughly around 10 minutes. I wish to evaluate the quality of my Reverb- Patch used on multiple recorded Samples of Acoustic Instruments. This type of test is called MUSHRA, and it is a standard for subjective evaluation of audio quality. You will hear some audio examples and be asked to rate them, I will guide you through it. This is a perceptive test, there is no right or wrong answer. It is possible that some tracks sound the same to you, this is fine! Make sure you are in a quiet environment, and that you have headphones on. Please click on the button below to start.
  - type: generic
    id: consent
    name: Consent
    mustConsent: true
-   content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared. Do you give consent for this?
+   content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared. You will also agree, that you are more than 18 year old. Do you give consent for this?
  - type: volume
    id: vol
    name: Volume settings
@@ -26,7 +26,7 @@ pages:
  - type: mushra
    id: mushra_mymushra
    name: MUSHRA
-   content: You will be rating the reverberation of a plucked Guitar String! This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to focus on the overall quality of the conditioned audios and judge any and all detected differences between the reference and the condition. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio and 100 means that the conditioned audio is equal or better than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
+   content: You will be rating the reverberation of a plucked Guitar String. This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to focus on the overall quality of the conditioned audios and judge any and all detected differences between the reference and the condition. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio and 100 means that the conditioned audio is equal or better than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
    showWaveform: true
    enableLooping: true
    reference: configs/resources/audio/Guitar_C_dry.wav
@@ -137,11 +137,7 @@ pages:
         C1: configs/resources/audio/Violin_R_dry.wav
         C2: configs/resources/audio/Violin_R_IR.wav
         C3: configs/resources/audio/Violin_R_V8.wav
-
- - type: finish
-   id: finish_instructions
-   name: Finish page
-   content: The next page is the finish page. Here the results will be sent and questions will be asked.        
+       
  - type: finish
    name: Thank you
    content: Thank you for answering! Please fill out the questionnaire so that we can get to know you better. If you still have time, you can help us some more by performing this test on a different instrument. Dont forget to send your results on this page, but first open this link in another tab. Dont forget to press the button below to submit your answers!!!
