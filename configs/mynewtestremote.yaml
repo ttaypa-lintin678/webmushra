@@ -1,0 +1,177 @@
+testname: my Test
+testId: my_test
+bufferSize: 1024
+stopOnErrors: false
+showButtonPreviousPage: true
+language: de
+remoteService: https://webmushra-backend-y00i.onrender.com/service/write_aws-s3.php
+
+pages:
+ - type: generic
+   id: welcome
+   name: Welcome
+   content: Thank you for helping us by answering these questions! This will take 10-15 minutes. I wish to evaluate the quality of my Reverb- Patch used on multiple recorded Samples of Acoustic Instruments. This type of test is called MUSHRA, and it is a standard for subjective evaluation of audio quality. You will hear some audio examples and be asked to rate them, we will guide you through it. Take time to read the text at each time, it will describe the specificities of what we wish you to evaluate. This is a perceptive test, there is no right or wrong answer. It is possible that some tracks sound the same to you, this is fine! Make sure you are in a quiet environment, and that you have headphones on. Please click on the button below to start.
+ - type: generic
+   id: consent
+   name: Consent
+   mustConsent: true
+   content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared. Do you give consent for this?
+ - type: volume
+   id: vol
+   name: Volume settings
+   content: Let's start by adjusting the volume of your headphones to a comfortable level. It should be loud enough for you to hear details in the audio, but not cause any distress. Ideally you should not change your computer's volume after setting this until you have finished the evaluation. Warning: While listening to this setup audio you should not hear any glitches, pops or strange sounds. If this is the case you can try to resart you browser or open this page using the Firefox web browser. When you are done, click on the button below to continue.
+   stimulus: configs/resources/audio/Guitar_C_dry.wav
+   defaultVolume: 0.5
+                                                 
+ - type: mushra
+   id: mushra_mymushra
+   name: MUSHRA
+   content: You will be rating the reverberation of a plucked Guitar String! This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to focus on the overall quality of the conditioned audios and judge any and all detected differences between the reference and the condition. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio and 100 means that the conditioned audio is equal or better than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Guitar_C_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Guitar_C_dry.wav
+        C2: configs/resources/audio/Guitar_C_IR.wav
+        C3: configs/resources/audio/Guitar_C_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra2
+   name: MUSHRA
+   content: You will be rating the panned reverberation of a plucked Guitar String! 
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Guitar_L_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Guitar_L_dry.wav
+        C2: configs/resources/audio/Guitar_L_IR.wav
+        C3: configs/resources/audio/Guitar_L_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra3
+   name: MUSHRA
+   content: You will be rating the panned reverberation of a plucked Guitar String! 
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Guitar_R_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Guitar_R_dry.wav
+        C2: configs/resources/audio/Guitar_R_IR.wav
+        C3: configs/resources/audio/Guitar_R_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra4
+   name: MUSHRA
+   content: You will be rating the reverberation of a Clarinet! 
+   enableLooping: true
+   reference: configs/resources/audio/Clarinet_C_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Clarinet_C_dry.wav
+        C2: configs/resources/audio/Clarinet_C_IR.wav
+        C3: configs/resources/audio/Clarinet_C_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra5
+   name: MUSHRA
+   content: You will be rating the panned reverberation of a Clarinet! 
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Clarinet_L_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Clarinet_L_dry.wav
+        C2: configs/resources/audio/Clarinet_L_IR.wav
+        C3: configs/resources/audio/Clarinet_L_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra6
+   name: MUSHRA
+   content: You will be rating the panned reverberation of a Clarinet! 
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Clarinet_R_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Clarinet_R_dry.wav
+        C2: configs/resources/audio/Clarinet_R_IR.wav
+        C3: configs/resources/audio/Clarinet_R_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra7
+   name: MUSHRA
+   content: You will be rating the reverberation of a short phrase played on a violin! 
+   enableLooping: true
+   reference: configs/resources/audio/Violin_C_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Violin_C_dry.wav
+        C2: configs/resources/audio/Violin_C_IR.wav
+        C3: configs/resources/audio/Violin_C_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra8
+   name: MUSHRA
+   content: You will be rating the panned reverberation of a Violin! 
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Violin_L_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Violin_L_dry.wav
+        C2: configs/resources/audio/Violin_L_IR.wav
+        C3: configs/resources/audio/Violin_L_V8.wav
+
+ - type: mushra
+   id: mushra_mymushra9
+   name: MUSHRA
+   content: You will be rating the panned reverberation of a Violin! 
+   showWaveform: true
+   enableLooping: true
+   reference: configs/resources/audio/Violin_C_dry.wav
+   randomize: true
+   stimuli:
+        C1: configs/resources/audio/Violin_R_dry.wav
+        C2: configs/resources/audio/Violin_R_IR.wav
+        C3: configs/resources/audio/Violin_R_V8.wav
+
+ - type: finish
+   id: finish_instructions
+   name: Finish page
+   content: The next page is the finish page. Here the results will be sent and questions will be asked.        
+ - type: finish
+   name: Thank you
+   content: Thank you for answering! Please fill out the questionnaire so that we can get to know you better. If you still have time, you can help us some more by performing this test on a different instrument. Dont forget to send your results on this page, but first open this link in another tab. Dont forget to press the button below to submit your answers!!!
+   popupContent: Your results were sent. Goodbye and have a nice day   
+   showResults: true
+   showErrors: true
+   writeResults: true
+   questionnaire:
+       - type: text
+         label: eMail
+         name: email
+         optional: false
+       - type: number
+         label: Age
+         name: age
+         optional: true
+         min: 0
+         max: 100
+         default: 30
+       - type: likert
+         name: gender
+         label: Gender
+         response:
+          - value: female
+            label: Female
+          - value: male
+            label: Male
+          - value: other
+            label: Other
+       - type: long_text
+         label: Feedback
+         name: feedback
+         optional: true
