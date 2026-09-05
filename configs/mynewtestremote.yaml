@@ -4,7 +4,7 @@ bufferSize: 1024
 stopOnErrors: false
 showButtonPreviousPage: true
 language: de
-remoteService: https://webmushra-backend-y00i.onrender.com/service/write_aws-s3.php
+remoteService: https://webmushra-backend-y00i.onrender.com/write_aws-s3.php
 
 pages:
  - type: generic
