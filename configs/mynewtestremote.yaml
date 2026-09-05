@@ -26,7 +26,7 @@ pages:
  - type: mushra
    id: mushra_mymushra
    name: MUSHRA
-   content: You will be rating the reverberation of a plucked Guitar String. This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to focus on the overall quality of the conditioned audios and judge any and all detected differences between the reference and the condition. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio and 100 means that the conditioned audio is equal or better than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
+   content: You will be rating the reverberated Sample of a plucked Guitar String. This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Please rate the conditioned audios in comparison to the reference audio, in this first page we ask you to focus on the overall quality of the conditioned audios and judge any and all detected differences between the reference and the condition. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio and 100 means that the conditioned audio is equal or better than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
    showWaveform: true
    enableLooping: true
    reference: configs/resources/audio/Guitar_C_dry.wav
@@ -34,12 +34,12 @@ pages:
    stimuli:
         C1: configs/resources/audio/Guitar_C_dry.wav
         C2: configs/resources/audio/Guitar_C_IR.wav
-        C3: configs/resources/audio/Guitar_C_V8.wav
+        C3: configs/resources/audio/Guitar_C_V9.wav
 
  - type: mushra
    id: mushra_mymushra2
    name: MUSHRA
-   content: You will be rating the panned reverberation of a plucked Guitar String! 
+   content: You will be rating the same Flute Sample, now panned to the left! 
    showWaveform: true
    enableLooping: true
    reference: configs/resources/audio/Guitar_L_dry.wav
@@ -47,12 +47,12 @@ pages:
    stimuli:
         C1: configs/resources/audio/Guitar_L_dry.wav
         C2: configs/resources/audio/Guitar_L_IR.wav
-        C3: configs/resources/audio/Guitar_L_V8.wav
+        C3: configs/resources/audio/Guitar_L_V9.wav
 
  - type: mushra
    id: mushra_mymushra3
    name: MUSHRA
-   content: You will be rating the panned reverberation of a plucked Guitar String! 
+   content: You will be rating the same Guitar Sample, now panned to the right! 
    showWaveform: true
    enableLooping: true
    reference: configs/resources/audio/Guitar_R_dry.wav
@@ -60,45 +60,45 @@ pages:
    stimuli:
         C1: configs/resources/audio/Guitar_R_dry.wav
         C2: configs/resources/audio/Guitar_R_IR.wav
-        C3: configs/resources/audio/Guitar_R_V8.wav
+        C3: configs/resources/audio/Guitar_R_V9.wav
 
  - type: mushra
    id: mushra_mymushra4
    name: MUSHRA
-   content: You will be rating the reverberation of a Clarinet! 
+   content: You will be rating the reverberated Sample of a Flute! 
    enableLooping: true
-   reference: configs/resources/audio/Clarinet_C_dry.wav
+   reference: configs/resources/audio/Flute_C_dry.wav
    randomize: true
    stimuli:
-        C1: configs/resources/audio/Clarinet_C_dry.wav
-        C2: configs/resources/audio/Clarinet_C_IR.wav
-        C3: configs/resources/audio/Clarinet_C_V8.wav
+        C1: configs/resources/audio/Flute_C_dry.wav
+        C2: configs/resources/audio/Flute_C_IR.wav
+        C3: configs/resources/audio/Flute_C_V9.wav
 
  - type: mushra
    id: mushra_mymushra5
    name: MUSHRA
-   content: You will be rating the panned reverberation of a Clarinet! 
+   content: You will be rating the same Flute Sample, now panned to the left! 
    showWaveform: true
    enableLooping: true
-   reference: configs/resources/audio/Clarinet_L_dry.wav
+   reference: configs/resources/audio/Flute_L_dry.wav
    randomize: true
    stimuli:
-        C1: configs/resources/audio/Clarinet_L_dry.wav
-        C2: configs/resources/audio/Clarinet_L_IR.wav
-        C3: configs/resources/audio/Clarinet_L_V8.wav
+        C1: configs/resources/audio/Flute_L_dry.wav
+        C2: configs/resources/audio/Flute_L_IR.wav
+        C3: configs/resources/audio/Flute_L_V9.wav
 
  - type: mushra
    id: mushra_mymushra6
    name: MUSHRA
-   content: You will be rating the panned reverberation of a Clarinet! 
+   content: You will be rating the same Flute Sample, now panned to the right! 
    showWaveform: true
    enableLooping: true
-   reference: configs/resources/audio/Clarinet_R_dry.wav
+   reference: configs/resources/audio/Flute_R_dry.wav
    randomize: true
    stimuli:
-        C1: configs/resources/audio/Clarinet_R_dry.wav
-        C2: configs/resources/audio/Clarinet_R_IR.wav
-        C3: configs/resources/audio/Clarinet_R_V8.wav
+        C1: configs/resources/audio/Flute_R_dry.wav
+        C2: configs/resources/audio/Flute_R_IR.wav
+        C3: configs/resources/audio/Flute_R_V9.wav
 
  - type: mushra
    id: mushra_mymushra7
@@ -110,12 +110,12 @@ pages:
    stimuli:
         C1: configs/resources/audio/Violin_C_dry.wav
         C2: configs/resources/audio/Violin_C_IR.wav
-        C3: configs/resources/audio/Violin_C_V8.wav
+        C3: configs/resources/audio/Violin_C_V9.wav
 
  - type: mushra
    id: mushra_mymushra8
    name: MUSHRA
-   content: You will be rating the panned reverberation of a Violin! 
+   content: You will be rating the same Violin Sample, now panned to the left! 
    showWaveform: true
    enableLooping: true
    reference: configs/resources/audio/Violin_L_dry.wav
@@ -123,12 +123,12 @@ pages:
    stimuli:
         C1: configs/resources/audio/Violin_L_dry.wav
         C2: configs/resources/audio/Violin_L_IR.wav
-        C3: configs/resources/audio/Violin_L_V8.wav
+        C3: configs/resources/audio/Violin_L_V9.wav
 
  - type: mushra
    id: mushra_mymushra9
    name: MUSHRA
-   content: You will be rating the panned reverberation of a Violin! 
+   content: You will be rating the same Violin Sample, now panned to the right!  
    showWaveform: true
    enableLooping: true
    reference: configs/resources/audio/Violin_C_dry.wav
@@ -136,7 +136,7 @@ pages:
    stimuli:
         C1: configs/resources/audio/Violin_R_dry.wav
         C2: configs/resources/audio/Violin_R_IR.wav
-        C3: configs/resources/audio/Violin_R_V8.wav
+        C3: configs/resources/audio/Violin_R_V9.wav
        
  - type: finish
    name: Thank you
