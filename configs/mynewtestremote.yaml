@@ -15,27 +15,8 @@ pages:
    id: consent
    name: Consent
    mustConsent: true
-   content: |
-      <div style="text-align: left; max-width: 800px; margin: auto;">
-
-        <p>
-          You are participating in a listening test. For this test, we want
-          to store the answers you give to the following questions.
-          Individual answers will not be shared.
-        </p>
-
-        <p>
-          You also confirm that you are at least 18 years old.
-        </p>
-
-        <p>
-          <strong>
-            Do you give consent to participate in this listening test?
-          </strong>
-        </p>
-
-      </div>
-  
+   content: 
+   
  - type: volume
    id: vol
    name: Volume settings
