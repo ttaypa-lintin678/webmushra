@@ -15,35 +15,7 @@ pages:
    id: consent
    name: Consent
    mustConsent: true
-   content: |
-      <div style="text-align: left; max-width: 800px; margin: auto;">
-
-        <h3>Consent to participate</h3>
-
-        <p>
-          You are invited to participate in a listening test.
-          During this test, you will listen to several audio samples
-          and provide ratings based on your personal listening experience.
-        </p>
-
-        <p>
-          Your responses will be recorded for the purpose of evaluating
-          the results of this listening test. Individual responses will
-          not be shared publicly.
-        </p>
-
-        <p>
-          Participation is voluntary. By giving your consent, you confirm
-          that you understand the information provided above and agree
-          to participate in the listening test.
-        </p>
-
-        <p>
-          You also confirm that you are at least 18 years old.
-        </p>
-
-      </div>
-
+   content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared. By continuing to the next page you consent to participate in this listening test and confirm that you are at least 18 years old.
  - type: volume
    id: vol
    name: Volume settings
