@@ -11,12 +11,12 @@ pages:
    id: welcome
    name: Welcome
    content: Thank you for helping me by answering these questions! This will take roughly around 10 minutes. I wish to evaluate the quality of my Reverb- Patch used on multiple recorded Samples of Acoustic Instruments. This type of test is called MUSHRA, and it is a standard for subjective evaluation of audio quality. You will hear some audio examples and be asked to rate them, I will guide you through it. This is a perceptive test, there is no right or wrong answer. It is possible that some tracks sound the same to you, this is fine! Make sure you are in a quiet environment, and that you have headphones on. Please click on the button below to start.
- - type: consent
+ - type: generic
    id: consent
    name: Consent
    mustConsent: true
    content: 
-   
+
  - type: volume
    id: vol
    name: Volume settings
