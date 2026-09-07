@@ -15,8 +15,7 @@ pages:
    id: consent
    name: Consent
    mustConsent: true
-   content: 
-
+   content: You are participating in a listening test. For this, we want to store the answers you give to the following questions. Individual answers will not be shared. Do you give consent for this?
  - type: volume
    id: vol
    name: Volume settings
