@@ -42,7 +42,7 @@ pages:
    id: vol
    name: Volume settings
    content: Let's start by adjusting the volume of your headphones to a comfortable level. It should be loud enough for you to hear details in the audio, but not cause any distress. Ideally you should not change your computer's volume after setting this until you have finished the evaluation. Warning: While listening to this setup audio you should not hear any glitches, pops or strange sounds. If this is the case you can try to resart you browser or open this page using the Firefox web browser. When you are done, click on the button below to continue.
-   stimulus: configs/resources/audio/Guitar_C_dry.wav
+   stimulus: configs/resources/audio/Flute_C_IR.wav
    defaultVolume: 0.5
 
  - type: mushra
@@ -52,6 +52,10 @@ pages:
    enableLooping: true
    reference: configs/resources/audio/Flute_C_IR.wav
    randomize: true
+   showComments: true
+   commentPrompt: >
+    Please briefly explain why you gave each example its rating.
+    Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Flute_C_dry.wav
         C2: configs/resources/audio/Flute_C_IR.wav
@@ -65,6 +69,10 @@ pages:
    enableLooping: true
    reference: configs/resources/audio/Flute_L_IR.wav
    randomize: true
+   showComments: true
+   commentPrompt: >
+    Please briefly explain why you gave each example its rating.
+    Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Flute_L_dry.wav
         C2: configs/resources/audio/Flute_L_IR.wav
@@ -78,6 +86,10 @@ pages:
    enableLooping: true
    reference: configs/resources/audio/Flute_R_IR.wav
    randomize: true
+   showComments: true
+   commentPrompt: >
+    Please briefly explain why you gave each example its rating.
+    Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Flute_R_dry.wav
         C2: configs/resources/audio/Flute_R_IR.wav
@@ -90,6 +102,10 @@ pages:
    enableLooping: true
    reference: configs/resources/audio/Violin_C_IR.wav
    randomize: true
+   showComments: true
+   commentPrompt: >
+    Please briefly explain why you gave each example its rating.
+    Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Violin_C_dry.wav
         C2: configs/resources/audio/Violin_C_IR.wav
@@ -103,6 +119,10 @@ pages:
    enableLooping: true
    reference: configs/resources/audio/Violin_L_IR.wav
    randomize: true
+   showComments: true
+   commentPrompt: >
+    Please briefly explain why you gave each example its rating.
+    Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Violin_L_dry.wav
         C2: configs/resources/audio/Violin_L_IR.wav
@@ -116,6 +136,10 @@ pages:
    enableLooping: true
    reference: configs/resources/audio/Violin_R_IR.wav
    randomize: true
+   showComments: true
+   commentPrompt: >
+    Please briefly explain why you gave each example its rating.
+    Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Violin_R_dry.wav
         C2: configs/resources/audio/Violin_R_IR.wav
