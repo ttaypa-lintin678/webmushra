@@ -61,14 +61,14 @@ pages:
    id: mushra_mymushra4
    name: MUSHRA
    content: 
-    <p>
-     This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio, 50 means that the conditioned audio is equal to the reference and 100 means that the conditioned audio is muchbetter than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page. 
-    </p>
+      <p>
+      This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio, 50 means that the conditioned audio is equal to the reference and 100 means that the conditioned audio is muchbetter than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page. 
+      </p>
    
-    <p>
-    You will be rating the reverberated Sample of a Flute! 
-    </p>
-    
+      <p>
+      You will be rating the reverberated Sample of a Flute! 
+      </p>
+
    enableLooping: true
    reference: configs/resources/audio/Flute_C_IR.wav
    randomize: true
