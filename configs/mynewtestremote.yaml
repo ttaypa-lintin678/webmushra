@@ -41,14 +41,34 @@ pages:
  - type: volume
    id: vol
    name: Volume settings
-   content: Let's start by adjusting the volume of your headphones to a comfortable level. It should be loud enough for you to hear details in the audio, but not cause any distress. Ideally you should not change your computer's volume after setting this until you have finished the evaluation. Warning: While listening to this setup audio you should not hear any glitches, pops or strange sounds. If this is the case you can try to resart you browser or open this page using the Firefox web browser. When you are done, click on the button below to continue.
+   content: 
+      <p>
+      Please read the following texts carefully! 
+      </p>
+
+      <p>
+      Let's start by adjusting the volume of your headphones to a comfortable level. It should be loud enough for you to hear details in the audio, but not cause any distress. Ideally you should not change your computer's volume after setting this until you have finished the evaluation. 
+      </p>
+
+      <p>
+      Warning: While listening to this setup audio you should not hear any glitches, pops or strange sounds. If this is the case you can try to resart you browser or open this page using the Firefox web browser. When you are done, click on the button below to continue.
+      </p>
+
    stimulus: configs/resources/audio/Flute_C_IR.wav
    defaultVolume: 0.5
 
  - type: mushra
    id: mushra_mymushra4
    name: MUSHRA
-   content: You will be rating the reverberated Sample of a Flute! This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio, 50 means that the conditioned audio is equal to the reference and 100 means that the conditioned audio is muchbetter than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page.
+   content: 
+    <p>
+     This page sets the standard that the rest of the test will follow. You have a reference audio and a set of "conditioned" audios. The conditioned audios are the ones that you will be evaluating. Use the slider to rate the conditioned audios, 0 means that the conditioned audio is much worse than the reference audio, 50 means that the conditioned audio is equal to the reference and 100 means that the conditioned audio is muchbetter than the reference audio. Please take your time to listen (and re-listen) and rate the audios. When you are done, click on the button below to continue, you will not be able to go back to the previous page. 
+    </p>
+   
+    <p>
+    You will be rating the reverberated Sample of a Flute! 
+    </p>
+    
    enableLooping: true
    reference: configs/resources/audio/Flute_C_IR.wav
    randomize: true
