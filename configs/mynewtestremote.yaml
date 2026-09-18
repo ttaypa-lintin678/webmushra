@@ -58,8 +58,7 @@ pages:
     Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Flute_C_dry.wav
-        C2: configs/resources/audio/Flute_C_IR.wav
-        C3: configs/resources/audio/Flute_C_V9.wav
+        C2: configs/resources/audio/Flute_C_V10.wav
 
  - type: mushra
    id: mushra_mymushra5
@@ -75,8 +74,7 @@ pages:
     Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Flute_L_dry.wav
-        C2: configs/resources/audio/Flute_L_IR.wav
-        C3: configs/resources/audio/Flute_L_V9.wav
+        C2: configs/resources/audio/Flute_L_V10.wav
 
  - type: mushra
    id: mushra_mymushra6
@@ -92,8 +90,7 @@ pages:
     Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Flute_R_dry.wav
-        C2: configs/resources/audio/Flute_R_IR.wav
-        C3: configs/resources/audio/Flute_R_V9.wav
+        C2: configs/resources/audio/Flute_R_V10.wav
 
  - type: mushra
    id: mushra_mymushra7
@@ -108,8 +105,7 @@ pages:
     Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Violin_C_dry.wav
-        C2: configs/resources/audio/Violin_C_IR.wav
-        C3: configs/resources/audio/Violin_C_V9.wav
+        C2: configs/resources/audio/Violin_C_V10.wav
 
  - type: mushra
    id: mushra_mymushra8
@@ -125,8 +121,7 @@ pages:
     Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Violin_L_dry.wav
-        C2: configs/resources/audio/Violin_L_IR.wav
-        C3: configs/resources/audio/Violin_L_V9.wav
+        C2: configs/resources/audio/Violin_L_V10.wav
 
  - type: mushra
    id: mushra_mymushra9
@@ -142,8 +137,7 @@ pages:
     Describe any audible characteristics that influenced your decision.
    stimuli:
         C1: configs/resources/audio/Violin_R_dry.wav
-        C2: configs/resources/audio/Violin_R_IR.wav
-        C3: configs/resources/audio/Violin_R_V9.wav
+        C3: configs/resources/audio/Violin_R_V10.wav
        
  - type: finish
    name: Thank you
